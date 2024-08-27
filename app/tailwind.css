@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	html {
+		@apply font-sans;
+	}
+
+	:root {
+		--color-bg-primary: #141414;
+		--color-bg-secondary: #191919;
+		--color-text-primary: #ffffff;
+		--color-text-secondary: #98989a;
+		--color-text-tetriary: #7e7e81;
+		--color-border: #262626;
+		--color-yellow: #ffd119;
+	}
+
+	body {
+		background-color: var(--color-bg-primary);
+		color: var(--color-text-primary);
+	}
+}
