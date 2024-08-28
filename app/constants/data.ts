@@ -1,3 +1,4 @@
+import images from './images';
 import { BoxData } from './types';
 
 export const navLinks = [
@@ -78,5 +79,41 @@ export const footerLinks = [
 			{ linkTitle: 'TechTalk AI', link: '#' },
 			{ linkTitle: 'AI Conversations', link: '#' },
 		],
+	},
+];
+
+export const achievementData = [
+	{
+		title: '300',
+		description: 'Resources available',
+	},
+	{
+		title: '12k',
+		description: 'Total Downloads',
+	},
+	{
+		title: '10k',
+		description: 'Active Users',
+	},
+];
+
+export const HeroTabsData = [
+	{
+		title: 'Latest News Updates',
+		subtitle: 'Stay Current',
+		description: 'Over 1,000 articles published monthly',
+		image: images.current,
+	},
+	{
+		title: 'Expert Contributors',
+		subtitle: 'Trusted Insights',
+		description: '50+ renowned AI experts on our team',
+		image: images.contribute,
+	},
+	{
+		title: 'Global Readership',
+		subtitle: 'Worldwide Impact',
+		description: '2 million monthly readers',
+		image: images.impact,
 	},
 ];
