@@ -21,4 +21,8 @@
 		background-color: var(--color-bg-primary);
 		color: var(--color-text-primary);
 	}
+
+	.hoverTab {
+		@apply hover:bg-[#191919]/30 hover:text-[#fff]/80 cursor-pointer transition-all;
+	}
 }

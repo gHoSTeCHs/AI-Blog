@@ -11,7 +11,7 @@ const LinkTab: React.FC<LinkTabProps> = ({ title }) => {
 			<div className="inline-block border border-border rounded-md px-5 py-[14px] hover:bg-[#191919]/70 cursor-pointer transition-all">
 				<div className=" flex gap-1 ">
 					<p>{title}</p>
-					<MoveUpRight />
+					<MoveUpRight color="#ffd119" />
 				</div>
 			</div>
 		</div>

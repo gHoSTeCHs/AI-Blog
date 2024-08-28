@@ -7,6 +7,8 @@ import person1 from '../assets/images/person1.png';
 import person2 from '../assets/images/person2.png';
 import person3 from '../assets/images/person3.png';
 import person4 from '../assets/images/person4.png';
+import informed from '../assets/icons/informed.png';
+import research from '../assets/icons/research.png';
 export default {
 	siteIcon,
 	contribute,
@@ -17,4 +19,6 @@ export default {
 	person2,
 	person3,
 	person4,
+	informed,
+	research,
 };

@@ -9,7 +9,7 @@ const Hero = () => {
 		<div className="">
 			<div className="grid grid-cols-12 ">
 				<div className="col-span-7 w-full ">
-					<div className="pl-[70px]">
+					<div className="pl-[]">
 						<div className="px-[50px] py-[100px] flex flex-col gap-5">
 							<p className="text-text-secondary text-[22px] leading-none font-medium">
 								Your Journey to Tomorrow Begins Here
@@ -38,7 +38,7 @@ const Hero = () => {
 											index === 1
 												? 'border border-border border-y-0'
 												: index === 0
-												? 'pl-[110px]'
+												? 'pl-[50px]'
 												: ''
 										}
 									/>

@@ -117,3 +117,99 @@ export const HeroTabsData = [
 		image: images.impact,
 	},
 ];
+
+export const futureTechData = [
+	{
+		title: 'Future Technology Blog',
+		description:
+			'Stay informed with our blog section dedicated to future technology.',
+		image: images.informed,
+		cards: [
+			{
+				title: 'Quantity',
+				description:
+					'Over 1,000 articles on emerging tech trends and breakthroughs.',
+			},
+			{
+				title: 'Variety',
+				description:
+					'Articles cover fields like AI, robotics, biotechnology, and more.',
+			},
+			{
+				title: 'Frequency',
+				description: 'Fresh content added daily to keep you up to date.',
+			},
+			{
+				title: 'Authoritative',
+				description:
+					'Written by our team of tech experts and industry professionals.',
+			},
+		],
+	},
+	{
+		title: 'Research Insights Blogs',
+		description:
+			'Dive deep into future technology concepts with our research section.',
+		image: images.research,
+		cards: [
+			{
+				title: 'Depth',
+				description: '500+ research articles for in-depth understanding.',
+			},
+			{
+				title: 'Graphics',
+				description: 'Visual aids and infographics to enhance comprehension.',
+			},
+			{
+				title: 'Trends',
+				description: 'Explore emerging trends in future technology research.',
+			},
+			{
+				title: 'Contributors',
+				description: 'Contributions from tech researchers and academics.',
+			},
+		],
+	},
+];
+
+export const BlogPosts = [
+	{
+		title: 'The Quantum Leap in Computing',
+		author: 'John Techson',
+		avatar: images.person1,
+		category: 'Quantum Computing',
+		publishedDate: 'October 15, 2023',
+		description:
+			'Explore the revolution in quantum computing, its applications, and its potential impact on various industries.',
+		likes: '24400',
+		liked: true,
+		comments: 30,
+		shares: 10,
+	},
+	{
+		title: 'The Ethical Dilemmas of AI',
+		author: 'Sarah Ethicist',
+		avatar: images.person2,
+		category: 'AI Ethics',
+		publishedDate: 'November 5, 2023',
+		description:
+			'A deep dive into ethical challenges posed by AI, including bias, privacy, and transparency.',
+		likes: '24400',
+		liked: false,
+		comments: 30,
+		shares: 10,
+	},
+	{
+		title: 'The Mars Colonization Challenge',
+		author: 'Astronomer X',
+		avatar: images.person3,
+		category: 'Space Exploration',
+		publishedDate: 'December 10, 2023',
+		description:
+			'Exploring the technical and logistical challenges of human colonization on Mars.',
+		likes: '24400',
+		liked: true,
+		comments: 30,
+		shares: 10,
+	},
+];
